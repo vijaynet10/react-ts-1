@@ -6,13 +6,15 @@ import './style.css';
 interface AppProps { }
 interface AppState {
   name: string;
+  age: number
 }
 
 class App extends Component<AppProps, AppState> {
   constructor(props) {
     super(props);
     this.state = {
-      name: 'React'
+      name: 'React',
+      age:10
     };
   }
 
